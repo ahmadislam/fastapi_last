@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <p>Username: {{ user.username }}</p>
+    <p>Email: {{ user.email }}</p>
+    <p>Full Name: {{ user.full_name }}</p>
+    <p>Bio: {{ user.bio }}</p>
+    <h2>Tasks</h2>
+    <ul>
+    {% for task in user.tasks %}
+        <li>{{ task.title }} - Due: {{ task.due_date }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
