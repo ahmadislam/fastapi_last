@@ -1,0 +1,622 @@
+{
+  "name": "create_new_tenant_1",
+  "rename": "Create New Tenant",
+  "tabs": [
+    {
+      "tab_name": "business_info",
+      "tab_rename": "Business Info",
+      "tab_is_active": true,
+      "tab_sections": [
+        {
+          "section_name": "business_information",
+          "section_rename": "Business Information",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "business_legal_name",
+              "field_rename": "Business Legal Name",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "business_logo",
+              "field_rename": "Business Logo",
+              "field_type": "attachment",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "business_socials",
+          "section_rename": "Business Socials",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "business_website",
+              "field_rename": "Business Website",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "business_phone_no",
+              "field_rename": "Business Phone No",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "business_email",
+              "field_rename": "Business Email",
+              "field_type": "email",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "contacts",
+          "section_rename": "Contacts",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "name",
+              "field_rename": "Name",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "phone",
+              "field_rename": "Phone",
+              "field_type": "number",
+              "field_is_active": true
+            },
+            {
+              "field_name": "email",
+              "field_rename": "Email",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "site",
+      "tab_rename": "Site",
+      "tab_is_active": true,
+      "tab_sections": [
+        {
+          "section_name": "site_information",
+          "section_rename": "Site Information",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "site_name",
+              "field_rename": "Site Name",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "site_code",
+              "field_rename": "Site Code",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "site_location_gps",
+              "field_rename": "Site Location GPS",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "upload_photo",
+              "field_rename": "Upload Photo",
+              "field_type": "attachment",
+              "field_is_active": true
+            },
+            {
+              "field_name": "site_coordinates",
+              "field_rename": "Site Coordinates",
+              "field_type": "email",
+              "field_is_active": true
+            },
+            {
+              "field_name": "site_maps_location",
+              "field_rename": "Site Map Location",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "business_segment",
+              "field_rename": "Business Segment",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "sub_segment",
+              "field_rename": "Sub Segment",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "sub_sub_segment",
+              "field_rename": "Sub Sub Segment",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "location",
+          "section_rename": "Location",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "location_name",
+              "field_rename": "Location Name",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "location_description",
+              "field_rename": "Location Description",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "location_coordinates",
+              "field_rename": "Location Coordinates",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "upload_location_photo",
+              "field_rename": "Upload Location Photo",
+              "field_type": "attachment",
+              "field_is_active": true
+            },
+            {
+              "field_name": "location_map/link",
+              "field_rename": "Location Map/Link",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "location_site",
+              "field_rename": "Location Site",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "address",
+          "section_rename": "Address",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "area",
+              "field_rename": "Area",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "city",
+              "field_rename": "City",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "state",
+              "field_rename": "state",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "country",
+              "field_rename": "Country",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "reigon",
+              "field_rename": "Reigon",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "postal_code",
+              "field_rename": "Postal Code",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "projects",
+      "tab_rename": "Projects",
+      "tab_is_active": true,
+      "tab_sections": [
+        {
+          "section_name": "projects",
+          "section_rename": "Projects",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "project_name",
+              "field_rename": "Project Name",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "project_owner",
+              "field_rename": "Project Owner",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "upload_project_logo",
+              "field_rename": "Upload Project Logo",
+              "field_type": "attachment",
+              "field_is_active": true
+            },
+            {
+              "field_name": "project_description",
+              "field_rename": "Project Description",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "project_contact_person",
+              "field_rename": "Project Contact Person",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "starting_date",
+              "field_rename": "Starting Date",
+              "field_type": "date",
+              "field_is_active": true
+            },
+            {
+              "field_name": "closing_date",
+              "field_rename": "Closing Date",
+              "field_type": "date",
+              "field_is_active": true
+            },
+            {
+              "field_name": "project_sites",
+              "field_rename": "Project Sites",
+              "field_type": "list",
+              "field_is_active": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "org_structures",
+      "tab_rename": "Org Structures",
+      "tab_is_active": true,
+      "tab_sections": [
+        {
+          "section_name": "board",
+          "section_rename": "Board",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "member",
+              "field_rename": "Member",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "head",
+              "field_rename": "Head",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "top",
+          "section_rename": "Top",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "ceo",
+              "field_rename": "CEO",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "c_level",
+          "section_rename": "C Level",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "coo",
+              "field_rename": "COO",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "cfo",
+              "field_rename": "CFO",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "cto",
+              "field_rename": "CTO",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "vp",
+          "section_rename": "VP",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "vp_operations",
+              "field_rename": "VP Operations",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "vp_service",
+              "field_rename": "VP Service",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "direction",
+          "section_rename": "Direction",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "director_1",
+              "field_rename": "Director 1",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "director_2",
+              "field_rename": "Director 2",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "operation_manager",
+          "section_rename": "Operation Manager",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "op_manager_1",
+              "field_rename": "OP Manager 1",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "op_manager_2",
+              "field_rename": "OP Manager 2",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "manager",
+          "section_rename": "Manager",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "manager_1",
+              "field_rename": "Manager 1",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "supervisor/team_lead",
+          "section_rename": "Supervisor/Team Lead",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "supervisor_1",
+              "field_rename": "Supervisor 1",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "employee/contractor",
+          "section_rename": "Employee/Contractor",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "employee_1",
+              "field_rename": "Employee 1",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "employee_2",
+              "field_rename": "Employee 2",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "entry_level",
+          "section_rename": "Entry Level",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "trainee",
+              "field_rename": "Trainee",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "entry_employee",
+              "field_rename": "Entry Employee",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "assistance",
+              "field_rename": "Assistance",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "position_and_skills",
+      "tab_rename": "Position And Skills",
+      "tab_is_active": true,
+      "tab_sections": [
+        {
+          "section_name": "position_groups",
+          "section_rename": "Position Groups",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "group_name",
+              "field_rename": "Group Name",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "position_functions",
+          "section_rename": "Position Functions",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "function_group",
+              "field_rename": "Function Group",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "parent_function",
+              "field_rename": "Parent Function",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "department_title",
+              "field_rename": "Department Tiltle",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "position_roles",
+          "section_rename": "Position Roles",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "parent_department",
+              "field_rename": "Parent Department",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "role_name",
+              "field_rename": "Role Name",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "role_description",
+              "field_rename": "Role Description",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "skill_categories",
+          "section_rename": "Skill Categories",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "category_name",
+              "field_rename": "Category Name",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        },
+        {
+          "section_name": "add_skill",
+          "section_rename": "Add Skill",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "skills_category",
+              "field_rename": "Skill Category",
+              "field_type": "text",
+              "field_is_active": true
+            },
+            {
+              "field_name": "skills_name",
+              "field_rename": "Skills Name",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab_name": "documents",
+      "tab_rename": "Documents",
+      "tab_is_active": true
+    },
+    {
+      "tab_name": "team",
+      "tab_rename": "Team",
+      "tab_is_active": true
+    },
+    {
+      "tab_name": "hr",
+      "tab_rename": "HR",
+      "tab_is_active": true
+    },
+    {
+      "tab_name": "ppe",
+      "tab_rename": "PPE",
+      "tab_is_active": true
+    },
+    {
+      "tab_name": "room",
+      "tab_rename": "ROOM",
+      "tab_is_active": true
+    },
+    {
+      "tab_name": "assets",
+      "tab_rename": "Assets",
+      "tab_is_active": true
+    }
+  ]
+}
+
